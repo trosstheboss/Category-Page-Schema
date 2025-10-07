@@ -11,16 +11,23 @@ Automatically generate LLM-optimized JSON-LD structured data for category pages 
 - ✅ Validates schema structure
 - ✅ Exports clean, formatted JSON files
 
-## Installation
+## 📍 Step-by-Step Setup Instructions
+### Step 1: Download & Extract
 
-1. **Install Python 3.8+** (if not already installed)
+1. **Download**  the ZIP file I created: category-schema-generator.zip
+   [category-schema-generator.zip](https://github.com/user-attachments/files/22752973/category-schema-generator.zip)
 
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
+2. **Extract it** to a location on your computer, for example:
+
+ - Windows:
+   ```
+   C:\Users\YourName\Documents\schema-generator\
+   ```
+ - Mac: 
 ```
-
-## Setup
+/Users/YourName/Documents/schema-generator/
+```
+ - Or anywhere you prefer!
 
 ### Directory Structure
 
@@ -47,6 +54,49 @@ your-project/
 1. **Export the spreadsheet sheets** as individual CSV files
 2. **Name them exactly** as shown above (01-08)
 3. **Place them** in the `schema_data/` directory
+
+### Step 2: Open Terminal/Command Prompt
+
+**On Windows:**
+ - Press ```Win + R```
+ - Type ```cmd``` and press Enter
+ - OR right-click in the extracted folder and select "Open in Terminal" (Windows 11)
+
+**On Mac:**
+- Press ```Cmd + Space```
+- Type "Terminal" and press Enter
+- OR right-click the folder and select "New Terminal at Folder"
+
+### Step 3: Navigate to the Directory
+In the terminal, type:
+**Windows:**
+```bash
+cd C:\Users\YourName\Documents\schema-generator
+```
+**Mac/Linux:**
+```bash
+cd /Users/YourName/Documents/schema-generator
+```
+(Replace with your actual path)
+
+### Step 4: Run the Script
+```bash
+python quick_start.py
+```
+Or if you have Python 3 specifically:
+```bash
+python3 quick_start.py
+```
+
+## Installation
+
+1. **Install Python 3.8+** (if not already installed)
+
+2. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
 
 ## Usage
 
